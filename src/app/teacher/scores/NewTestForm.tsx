@@ -119,7 +119,7 @@ export default function NewTestForm({ classId }: { classId: number }) {
 
       <button
         type="submit"
-        className="w-full rounded-lg bg-[var(--brand)] px-3 py-2 text-sm font-semibold text-white transition hover:bg-[var(--brand-light)]"
+        className="w-full rounded-full bg-[var(--brand)] px-3 py-2 text-sm font-semibold text-white transition hover:bg-[var(--brand-light)]"
       >
         Create test
       </button>

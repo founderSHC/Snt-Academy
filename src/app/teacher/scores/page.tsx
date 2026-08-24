@@ -89,7 +89,7 @@ export default async function ScoresPage({
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-xl font-semibold text-slate-900">Scores</h1>
+        <h1 className="font-serif text-xl font-semibold text-slate-900">Scores</h1>
         <p className="mt-1 text-sm text-slate-500">
           Create weekly tests with your own categories and point values, then enter each student&apos;s score.
         </p>
@@ -262,7 +262,7 @@ export default async function ScoresPage({
                                   </label>
                                   <button
                                     type="submit"
-                                    className="rounded-lg bg-[var(--brand)] px-3 py-1.5 text-sm font-semibold text-white transition hover:bg-[var(--brand-light)]"
+                                    className="rounded-full bg-[var(--brand)] px-3 py-1.5 text-sm font-semibold text-white transition hover:bg-[var(--brand-light)]"
                                   >
                                     Save
                                   </button>
@@ -378,7 +378,7 @@ export default async function ScoresPage({
                       </div>
                       <button
                         type="submit"
-                        className="rounded-lg bg-[var(--brand)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[var(--brand-light)]"
+                        className="rounded-full bg-[var(--brand)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[var(--brand-light)]"
                       >
                         Save scores
                       </button>

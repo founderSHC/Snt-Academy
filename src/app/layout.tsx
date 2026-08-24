@@ -1,9 +1,16 @@
 import type { Metadata, Viewport } from "next";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
-  title: "SNT Academy",
-  description: "SNT Academy student portal — announcements, grades, and rankings.",
+  title: "Jiwon English",
+  description: "Jiwon English student portal — announcements, grades, and rankings.",
   manifest: "/manifest.json",
   icons: {
     icon: [
@@ -15,19 +22,19 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "SNT Academy",
+    title: "Jiwon English",
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1e3a8a",
+  themeColor: "#33261f",
   width: "device-width",
   initialScale: 1,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className={`h-full ${playfair.variable}`}>
       <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 antialiased">
         {children}
       </body>

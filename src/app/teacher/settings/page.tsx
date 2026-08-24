@@ -15,7 +15,7 @@ export default async function SettingsPage({
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-xl font-semibold text-slate-900">Settings</h1>
+        <h1 className="font-serif text-xl font-semibold text-slate-900">Settings</h1>
         <p className="mt-1 text-sm text-slate-500">Manage your teacher account.</p>
       </div>
 
@@ -54,7 +54,7 @@ export default async function SettingsPage({
           </div>
           <button
             type="submit"
-            className="rounded-lg bg-[var(--brand)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[var(--brand-light)]"
+            className="rounded-full bg-[var(--brand)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[var(--brand-light)]"
           >
             Update password
           </button>

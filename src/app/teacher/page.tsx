@@ -22,8 +22,8 @@ export default function TeacherDashboard() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-xl font-semibold text-slate-900">Dashboard</h1>
-        <p className="mt-1 text-sm text-slate-500">Overview of your classes at SNT Academy.</p>
+        <h1 className="font-serif text-xl font-semibold text-slate-900">Dashboard</h1>
+        <p className="mt-1 text-sm text-slate-500">Overview of your classes at Jiwon English.</p>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-3">
