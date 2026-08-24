@@ -35,7 +35,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`h-full ${playfair.variable}`}>
-      <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 antialiased">
+      <body className="min-h-full flex flex-col text-slate-900 antialiased">
         {children}
       </body>
     </html>
